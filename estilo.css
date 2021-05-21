@@ -1,0 +1,593 @@
+body {
+	height: auto;
+	margin-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #99CCCC;
+}
+form {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	vertical-align:middle;
+}
+input {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	vertical-align:middle;
+}
+textarea {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+/*Título do domínio da página*/
+.pagetitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration:none;
+}
+a.pagetitulo:link, a.pagetitulo:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+a.pagetitulo:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+}
+/*Texto lado formulário*/
+.busca {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.busca:link, a.busca:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.busca:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.prover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration:none;
+}
+a.prover:link, a.prover:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+a.prover:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+/*Favoritos e Página Inicial*/
+.favandpage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+a.favandpage:link, a.favandpage:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+a.favandpage:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+/*Categorias da lander page*/
+.categ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	_margin-bottom:30px;
+}
+a.categ:link, a.categ:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+a.categ:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCFFFF;
+	text-align: left;
+}
+/*Sub-categorias da lander page*/
+.subcateg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 22px;
+	text-align: left;
+	text-decoration: none;
+	color: #999999;
+	_margin-bottom:30px;
+}
+a.subcateg:link, a.bigsub:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 22px;
+	text-align: left;
+	text-decoration: none;
+	color: #999999;
+}
+a.subcateg:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 22px;
+	text-align: left;
+	text-decoration: underline;
+	color: #000000;
+}
+/*Sugestões de palavras-chaves*/
+.sugkey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 22px;
+	text-align: left;
+	text-decoration: none;
+	color: #999999;
+	_margin-bottom:30px;
+}
+a.sugkey:link, a.bigsub:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: left;
+	color: #666666;
+	text-decoration: none;
+}
+a.sugkey:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: left;
+	color: #000000;
+	text-decoration: none;
+}
+/*Texto: Links Patrocinados para:*/
+.categtema {
+	color: #000000;
+	font-weight: bold;
+	margin-left: 10px;
+}
+/*Título dos links patrocinados*/
+.linktitulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration:none;
+}
+a.linktitulo:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	text-decoration:none;
+}
+a.linktitulo:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	text-decoration: underline;
+}
+a.linktitulo:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+/*Descrição dos links patrocinados*/
+.linkdescr {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-variant: normal;
+	letter-spacing: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: justify;
+	text-decoration: none;
+}
+a.linkdescr:link, a.linkdescr:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-variant: normal;
+	letter-spacing: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: justify;
+	text-decoration: none;
+}
+a.linkdescr:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-variant: normal;
+	letter-spacing: normal;
+	color: #000000;
+	text-align: justify;
+	text-decoration: underline;
+}
+/*Links de navegação dos links patrocinados*/
+a.linknav:link {
+	font-size: 12px;
+	color: #0000FF;
+	padding: 2px;
+	line-height: 22px;
+	text-decoration: underline;
+}
+a.linknav:visited {
+	font-size: 12px;
+	color: #0000FF;
+	padding: 2px;
+	text-decoration: underline;
+}
+a.linknav:hover {
+	font-size: 12px;
+	color: #000000;
+	background-color: #CCCCCC;
+	padding: 2px;
+	line-height: 22px;
+}
+/*Links Relacionados*/
+/*Descrição dos links patrocinados*/
+.linkrelacbox {
+	display: inline-block;
+	margin: 0px auto 0px auto;
+}
+.linkrelac {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	font-variant: normal;
+	letter-spacing: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: center;
+}
+a.linkrelac:link, a.linkrelac:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-variant: normal;
+	letter-spacing: normal;
+	font-style: normal;
+	color: #666666;
+	text-align: justify;
+	text-decoration: none;
+}
+a.linkrelac:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-variant: normal;
+	letter-spacing: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.classcora
+{
+	background-color: #FFBD35;
+}
+.classcorb
+{
+	background-color: #FFFFFF;
+}
+
+.clquadroum
+{
+	background-color: #FFCC66;
+}
+.clcolesquerda
+{
+	background-color: #FFBD35;
+}
+.clcolesquerda li {
+	padding:0px 0px 5px 12px;
+	background: url(../img/quadrado_verde.gif) left;
+	background-repeat:no-repeat;
+	list-style:none;
+	margin-left: 10px;
+}
+.clcoldireita
+{
+	background-color: #FFFFFF;
+}
+.clcoldireita li {
+	margin:3px 0px 0px 5px;
+	padding:0px 0px 0px 15px;
+	list-style: none;
+	background: url(../img/seta_laranja.gif) left;
+	background-repeat:no-repeat;
+}
+.clquadrodoisbot
+{
+	background-color: #FFCC66;
+}
+.clrodape
+{
+	background-color: #FFBD35;
+}
+/*////////////////////////////////FORMATO///////////////////////////////////////////////////*/
+/* Container */
+.inputbusca{
+	width:200px;
+}
+#container {
+	width:780px;
+	position: relative;
+	margin: 0px auto 0px auto;
+	margin-left: -390px;
+	left: 50%;
+}
+#conteinerform {
+	width:780px;
+	text-align:center;
+	position: relative;
+	margin:0px auto 0px auto;
+}
+#formcontato {
+	text-align:left;
+	width:750px;
+	position: relative;
+	margin: 0px auto 0px auto;
+}
+/* Quadro imagem */
+#quadroimg { 
+	width:780px; 
+}
+/*Quadro topo principal*/
+#quadroum {
+	float:left;
+	width:780px;
+	height: 30px;
+	z-index: 1;
+	
+}
+/*Quadro com o endereço do site*/
+#quadrodominio {
+	padding:0px 0px 0px 2px;
+	width:200px;
+	float:left;
+}
+/*quadro para o formulário no topo */
+#quadroformtop {
+	padding:5px 20px 0px 0px;
+	width:390px;
+	float:right;
+	text-align:right;
+}
+/* Containerzinho */
+#containerzi {
+	text-align:left;
+	width: 780px;
+	float: left;
+}
+ul {
+	margin:0px;
+	padding:0px;
+}
+/* Coluna Esquerda */
+#colesquerda {
+	text-align: left;
+	height: 25px;
+}
+#colesquerda li{
+	width:150px;
+	height: 30px;
+	display: inline;
+	margin: 10px 10px 0px 10px;
+}
+/* Coluna Direita */
+#coldireita {
+	margin:5px 10px 0px 10px;
+	width:760px;
+	float:left;
+	text-align: left;
+}
+/* Tabela Links Favoritos*/
+#tabelaesquerda {
+	width:235px;
+	text-align: left;
+	float: left;
+	margin: 0px 0px 0px 55px;
+}
+#tabeladireita {
+	width:235px;
+	text-align: left;
+	float: right;
+	margin: 0px 55px 0px 0px;
+}
+/* Links Relacionados */
+/* Coluna Esquerda */
+#linksrelacionados {
+	text-align: center;
+	width: 640px;
+	margin: 10px 60px 0px 60px;
+}
+#linksrelacionados li{
+	display: inline;
+}
+/*Rodapé*/
+#rodape {
+	width: 780px;
+	text-align: center;
+	position: relative;
+	clear: both;
+	margin: 0px auto 0px auto;
+}
+/*Quadro principal inferior*/
+#quadrodois {
+	width:780px;
+	height: 30px;
+	margin: 5px auto 0px auto;
+}
+/*Quadro buscas inferior */
+#quadrodoisbot {
+	float:left;
+	width:780px;
+	text-align: center;
+	height:30px;
+	padding: 5px 0px 0px 0px;
+}
+/*Quadro para os favoritos inferior */
+#quadrofavbot {
+	float:left;
+	width: 780px;
+	text-align:center;
+	left:50%;
+	height: 11px;
+}
+#quadroimgfavbot {
+	float: left; 
+	width: 180px; 
+	text-align:right;
+}
+#quadrotextfavbot {
+	float: left; 
+	width: 180px; 
+	text-align:center;
+}
+#quadroimghomebot {
+	float: left; 
+	width: 40px; 
+	text-align:right;
+}
+#quadrotexthomebot {
+	float: left;
+	width: 200px;
+	text-align:center;
+}
+/*Quadro Rodap favoritos*/
+#quadropalavras {
+	margin:0px auto 0px auto;
+	padding:0px;
+	width:770px;
+	position:relative;
+	clear: both;
+}
+
+/*Div Search Suggest*/
+#search_div {
+/*	position: absolute; */
+	max-height: 550px;
+	overflow: auto;
+	z-index: 3;
+	background-color: #FFFFFF;
+	text-align: left;
+	border: solid 1px #7F93B9;
+	padding:4px 5px 4px 5px;
+	margin:-16px auto -2px 0px;
+	width:100%;
+	visibility:hidden;
+	float: left;
+}
+
+.suggest_link_top {
+        color: #47627C;
+        background-color: #4aadde ;
+    	padding:2px 5px 2px 5px;
+        border-left:solid 2px #cad7d8;
+        border-right:solid 2px #cad7d8;
+        font-weight:bold;
+        font-size:19px;
+        border-top:solid 2px #cad7d8;
+}
+
+.suggest_link {
+        color: #FFF;
+        background-color: #4aadde;
+        padding: 2px 5px 2px 5px;
+        border: solid 1px rgba(202,215,216,0.5);
+        font-weight: 300;
+        font-size: 18px;
+}
+
+.suggest_link_top_over {
+        color: #FFFFFF;
+        background-color: #4aadde;
+    	padding:2px 5px 2px 5px;
+        border-left:solid 2px #cad7d8;
+        border-right:solid 2px #cad7d8;
+        font-weight:bold;
+        font-size:19px;
+        border-top:solid 2px #cad7d8;
+        cursor: pointer;
+	    transform: scale(1.08);
+	    transition: transform 250ms ease-in-out;
+}
+
+
+.suggest_link_over {
+        color: #FFFFFF;
+        background-color: #4aadde;
+   		padding:2px 5px 2px 5px;
+        border:solid 2px #cad7d8;
+        font-weight:bold;
+        font-size:19px;
+        cursor: pointer;
+}
+
+.spanclass{
+        margin:0px;
+        padding:0px;
+        border-top:solid 1px #7F93B9;
+}
+
+/******* LGPD *******/
+.cc-window{
+	background-color: rgba(8, 77, 110, 0.8) !important;
+}
+.cc-compliance{
+	margin-right: 60px !important;
+}
